@@ -1,0 +1,32 @@
+#include<iostream>
+#include<vector>
+#include<algorithm> 
+using namespace std;
+
+
+int main()
+{
+    int y,k,n;
+    cin >> y >> k >> n;
+
+    long long start = k - (y % k);
+
+    if(start == k) start = 0;
+
+    bool found = false; 
+
+    for (long long  x = start; x + y <= n; x +=k)
+    {
+        if(x >= 1)
+        {
+            cout << x << " ";
+            found = true;
+        }
+    }
+    
+    if (!found)
+    {
+        cout << -1;
+    }
+    cout << endl;
+}

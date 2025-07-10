@@ -19,6 +19,15 @@ int main()
             cout << "Rectangle" << endl;
         } else {
             cout << "Square" << endl;
+<<<<<<< HEAD
         }   
     }
+=======
+        }
+        
+    }
+    
+    
+    
+>>>>>>> 1b6bcbe (first commit)
 }

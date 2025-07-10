@@ -23,5 +23,10 @@ int main()
         cout << it.first << " : " << it.second << endl;
     }
     
+<<<<<<< HEAD
+=======
+    
+
+>>>>>>> 1b6bcbe (first commit)
     return 0;
 }

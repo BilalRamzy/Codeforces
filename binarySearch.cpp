@@ -1,6 +1,10 @@
 #include<iostream>
 #include<vector>
+<<<<<<< HEAD
 #include<algorithms>
+=======
+#include<algorithm>
+>>>>>>> 1b6bcbe (first commit)
 using namespace std;
 
 
@@ -22,7 +26,11 @@ int main()
     {
         int x; cin >> x;
 
+<<<<<<< HEAD
         if(binary_search(a.begin(), a.end(), x)
+=======
+        if(binary_search(a.begin(), a.end(), x))
+>>>>>>> 1b6bcbe (first commit)
         {
             cout << "found" << endl;        
         } else {

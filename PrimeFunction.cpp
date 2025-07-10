@@ -3,7 +3,11 @@
 
 using namespace std;
 
+<<<<<<< HEAD
 bool isPrime(int n)
+=======
+bool isPrime(long long n)
+>>>>>>> 1b6bcbe (first commit)
 {
     if (n <= 1)
     {
@@ -16,7 +20,11 @@ bool isPrime(int n)
         return false;
     }
     
+<<<<<<< HEAD
     for (int i = 3; i <= sqrt(n); i+=2)
+=======
+    for (long long i = 3; i * i <= n; i+=2)
+>>>>>>> 1b6bcbe (first commit)
     {
         if(n % i == 0)
         {
@@ -34,7 +42,11 @@ int main()
 
     while (t--)
     {
+<<<<<<< HEAD
         int n;
+=======
+        long long n;
+>>>>>>> 1b6bcbe (first commit)
         cin >> n;
 
         if(isPrime(n))
