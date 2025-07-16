@@ -3,6 +3,8 @@
         "array": "cpp",
         "string_view": "cpp",
         "initializer_list": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "queue": "cpp",
+        "iostream": "cpp"
     }
 }
