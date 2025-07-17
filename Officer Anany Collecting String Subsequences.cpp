@@ -35,7 +35,10 @@ int main()
         string s; 
         cin >> n >> s;
 
-        int minlen = INT_MAX;
+        cin.ignore(); 
+        getline(cin, s);
+        
+        int minlen = INT_MAX;   
         for (int i = 0; i < n; i++)
         {
             if(s[i] == 'A')
