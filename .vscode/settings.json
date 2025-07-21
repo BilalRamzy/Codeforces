@@ -5,6 +5,8 @@
         "initializer_list": "cpp",
         "iosfwd": "cpp",
         "queue": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "source_location": "cpp",
+        "stacktrace": "cpp"
     }
 }
