@@ -7,29 +7,21 @@ int main()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
-
-
     int n, q;
     cin >> n >> q;
-
     vector<int> a(n);
-
     for (int i = 0; i < n; i++)
     {
         cin >> a[i];
     }
-    
     for (int i = 0; i < q; i++)
     {
         int k;
         cin >> k;
-
         int left = 0;
         int right = n -1;
-
         int result = -1;
-
-        while (left < right)
+        while (left <= right)
         {
             int mid = left + (right -left) / 2;
 
@@ -43,6 +35,5 @@ int main()
         }
         cout << result << endl;
     }
-
     return 0;
 }
